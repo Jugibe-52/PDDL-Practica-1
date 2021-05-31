@@ -2,7 +2,7 @@
 ;;
 
 (define (domain transport)
-  (:requirements :typing)
+  (:requirements :typing :fluents)
   (:types
         location target locatable - object
         vehicle package - locatable
